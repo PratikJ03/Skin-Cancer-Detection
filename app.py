@@ -65,7 +65,8 @@ def load_model():
     model = MelanomaModel(out_size=9)
 
     # Path to your model file
-    model_path = os.path.join("model", "multi_weight.pth")
+    # model_path = os.path.join("model", "multi_weight.pth")
+    model_path = "multi_weight.pth"
 
     # If you trust the checkpoint file, set weights_only=False
     checkpoint = torch.load(
